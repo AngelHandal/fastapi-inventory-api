@@ -1,4 +1,3 @@
-# main.py
 from fastapi import FastAPI, Depends, Body, HTTPException
 from database import engine, Base, SessionLocal
 from schemas import ProductBody
